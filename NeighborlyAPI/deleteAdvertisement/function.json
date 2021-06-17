@@ -9,7 +9,7 @@
       "methods": [
         "delete"
       ],
-      "connection": "MyDbConnection"
+      "connection": "MyDBConnection"
     },
     {
       "type": "http",
