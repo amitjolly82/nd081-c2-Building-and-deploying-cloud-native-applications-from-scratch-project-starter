@@ -1,5 +1,5 @@
 #--------- Flask settings
-SERVER_HOST = 'https://testngbrlyfendazure.azurewebsites.net' # Update this for the appropriate front-end website when up
+SERVER_HOST = '0.0.0.0' # Update this for the appropriate front-end website when up
 SERVER_PORT = 8000
 FLASK_DEBUG = True # Do not use debug mode in prod
 
@@ -16,4 +16,4 @@ API_VERSION = 'v1'
 #API_URL = " https://neighborlyapi.azurewebsites.net/api/"
 
 # for local host if Azure functions served locally
-API_URL = "https://azurendfunctionapp.azurewebsites.net/api/"
+API_URL = "https://neighbourlyapp.azurewebsites.net/api/"
