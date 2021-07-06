@@ -58,5 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'neighbourlywebapp'
+          AZURE_WEBAPP_PACKAGE_PATH: './NeighborlyFrontEnd'
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_8424db3510f84ca0bc75ca4a5f2816c3 }}
